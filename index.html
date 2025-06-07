@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vocal Tune - Tune Your Speech</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header>
+    <img src="assets/logo.png" alt="Vocal Tune Logo" class="logo" />
+    <h1>Vocal Tune</h1>
+    <p>Perfect your pitch & pace in real-time</p>
+  </header>
+
+  <main>
+    <button id="start-btn">🎙️ Start Tuning</button>
+    <canvas id="pitchChart"></canvas>
+    <canvas id="paceChart"></canvas>
+    
+    <div id="feedback">
+      <h2>Live Feedback</h2>
+      <p id="pitchFeedback">Pitch: -- Hz</p>
+      <p id="paceFeedback">Pace: -- words/min</p>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 Vocal Tune</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

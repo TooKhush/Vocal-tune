@@ -33,6 +33,10 @@ Whether you're preparing for a speech, podcast, or presentation, VocalTune ensur
 | 🌐 Multilingual Support | Train in multiple languages and accents (English, Spanish, etc.)        |
 
 ---
+## VocalTune Web app 
+
+[Visit Website](https://tookhush.github.io/Vocal-tune/)
+
 
 ## 🎬 How it Works
 
@@ -41,6 +45,7 @@ Whether you're preparing for a speech, podcast, or presentation, VocalTune ensur
 3. **✅ Adjust and repeat to improve**
 
 ```mermaid
+
 graph TD
 A[Start Speaking] --> B[Live Analysis]
 B --> C[Feedback: Pitch / WPM / Pronunciation]
